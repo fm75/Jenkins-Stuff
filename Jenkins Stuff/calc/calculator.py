@@ -7,6 +7,12 @@ class Calculator(object):
     
     def sub(self, b, a):
       return b - a
+
+    
+    def Multiply(self, b, a):
+      return a * b
+    
+    
     
     
     
