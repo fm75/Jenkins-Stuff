@@ -16,6 +16,10 @@ class Test(unittest.TestCase):
     calculator = Calculator ()
     self.assertEqual(2, calculator.sub(b=3,a=1))
      
+  def testMultiply (self):
+    calculator = Calculator ()
+    self.assertEqual(3, calculator.Multiply(b=3,a=1))
+     
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']
     unittest.main()
